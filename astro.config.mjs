@@ -26,5 +26,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
+  site: "https://salahdabbech1.github.io/salahdabbech/",
   integrations: [sitemap()]
 });
