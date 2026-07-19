@@ -5,6 +5,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+    site: 'https://salahdabbech0.github.io',
+    base: '/salahdabbech',  
   fonts: [
     { 
       provider: fontProviders.fontsource(),
@@ -21,15 +23,11 @@ export default defineConfig({
       weights: [400, 500, 600, 700, 800],
       styles: ["normal", "italic"],
     },
-    {
-      site: 'https://salahdabbech1.github.io',
-      base: '/salahdabbech',
-    }
-  ],
+ ],
 
   vite: {
     plugins: [tailwindcss()]
   },
 
-  integrations: [sitemap()]
+ integrations: [sitemap()]
 });
