@@ -17,15 +17,17 @@ content:
         options:
           multiple: true
           values:
-            - HTML
-            - JavaScript
-            - TypeScript
-            - LIVE
+            - Android
+            - Java
+            - Kotlin
+            - NodeJs
             - Docker
-            - React Native
-            - Backend API
-            - Node.js
-            - Tailwind
+            - MvvM
+            - Ios
+            - KMP
+            - Flutter
+            - Dart
+            - Go
       - { name: year, label: Year, type: string}
       - { name: github, label: GitHub URL, type: string }
       - { name: liveSite, label: Live Site URL, type: string }
